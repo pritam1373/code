@@ -53,7 +53,7 @@
             font-size: 25px;
             text-align: start;
             border: 12px solid rgb(117, 133, 171);
-              word-wrap: normal;
+            word-wrap: normal;
             overflow-y: scroll;
             scrollbar-width: none;
         }
@@ -72,6 +72,22 @@
            left: 20vw;
            color: rgb(146, 10, 10);
         }
+        #ap{
+            opacity: 0;
+            z-index: 5;
+            
+        }
+        .ami{
+            width: 162px;
+            height: 35px;
+            border: 1px solid black;
+            position: relative;
+            top: -205px;
+            left: 75px;
+            font-size: 25px;
+            text-align: center;
+            background-color: yellow;
+        }
 
     </style>
 </head>
@@ -84,9 +100,9 @@
       </div>
       <din id="ey">Your code :</din>
       <div id="ot"></div>
-      <a href="index2.html"> Another page</a>
+      <a href="index2.html" id="ap"> Another page</a>
       </div>
-     
+     <div class="ami" >Another page</div>
       <script src="scripts.js"></script>
 </body>
 </html>
